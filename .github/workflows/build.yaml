@@ -34,5 +34,5 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-node-
-      - run: pnpm i --frozen-lockfile
+      - run: pnpm i --no-frozen-lockfile
       - run: pnpm check
