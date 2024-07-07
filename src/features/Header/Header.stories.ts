@@ -1,5 +1,4 @@
-import Header from "$/features/Header/Header.svelte";
-import type { NaviItem } from '$/types/NaviItem';
+import Header from "$/features/Header/Header.sveltemport type { NaviItem } from '$/types/NaviItem';
 
 export default {
   title: 'Components/Header',
