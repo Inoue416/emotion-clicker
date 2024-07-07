@@ -1,8 +1,7 @@
-import Header from "$/features/Header/Header.svelte";
-import type { NaviItem } from '$/types/NaviItem';
+import Header from "./Header.svelte";
 import type { Meta, StoryObj } from '@storybook/svelte';
 
-const meta: Meta<Header> = {
+export const meta: Meta<Header> = {
   title: "Components/Header",
   component: Header,
   tags: ["autodocs"],
@@ -11,8 +10,6 @@ const meta: Meta<Header> = {
     layout: "fullscreen",
   },
 };
-
-export default meta;
 
 type Story = StoryObj<Header>;
 
