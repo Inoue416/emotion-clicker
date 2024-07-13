@@ -1,8 +1,8 @@
 import Header from "./Header.svelte";
 import type { Meta, StoryObj } from '@storybook/svelte';
 
-export const meta: Meta<Header> = {
-  title: "Components/Header",
+const meta: Meta<Header> = {
+  title: "Features/Header",
   component: Header,
   tags: ["autodocs"],
   parameters: {
@@ -10,6 +10,8 @@ export const meta: Meta<Header> = {
     layout: "fullscreen",
   },
 };
+
+export default meta;
 
 type Story = StoryObj<Header>;
 
