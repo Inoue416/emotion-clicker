@@ -1,9 +1,9 @@
-import Button from "./Button.svelte";
+import Input from "./Input.svelte";
 import type { Meta, StoryObj } from '@storybook/svelte';
 
-const meta: Meta<Button> = {
-  title: "Components/Button",
-  component: Button,
+const meta: Meta<Input> = {
+  title: "Components/Input",
+  component: Input,
   tags: ["autodocs"],
   parameters: {
     // More on how to position stories at: https://storybook.js.org/docs/7.0/svelte/configure/story-layout
@@ -13,13 +13,10 @@ const meta: Meta<Button> = {
 
 export default meta;
 
-type Story = StoryObj<Button>;
+type Story = StoryObj<Input>;
 
 export const Default: Story = {
   args: {
-    buttonClass: "btn btn-primary",
-    buttonText: "サンプルボタン",
-    path: "",
-    onClick: () => {}
+    
   }
 }
