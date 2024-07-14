@@ -16,5 +16,4 @@ export default meta;
 type Story = StoryObj<SelectEmotionPage>;
 
 export const Default: Story = {
-  args: {}
 }

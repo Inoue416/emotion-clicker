@@ -14,10 +14,10 @@
 		"sourceMap": true,
 		"strict": true,
 		"moduleResolution": "bundler",
-		"baseUrl": ".",
-		"paths": {
-			"$/*": ["./src/*"]
-		},
+		// "baseUrl": ".",
+		// "paths": {
+		// 	"$/*": ["./src/*"]
+		// },
 		"types": ["svelte"]
 	},
 	"include": [
